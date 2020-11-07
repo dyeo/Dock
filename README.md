@@ -1,10 +1,10 @@
 # Dock
 
-## Simple Runtime Dependancy Injection for Unity Engine
+## Simple Runtime Dependency Injection for Unity Engine
 
 The **Dock** is a single MonoBehaviour that loads before any other script in the scene. It connects instances of MonoBehaviour- and ScriptableObject-derived types marked with the `[Dock]` attribute to fields and properties in other loaded MonoBehaviour and ScriptableObject instances that are marked with the same attribute.
 
-Unity Engine has a built-in dependancy injection scheme in the form of **editor references**. Anyone who has worked on a large Unity project can tell you that editor references frequently break, and refactoring them is a pain point for many teams. While project asset references cannot be so easily eliminated, runtime assets such as MonoBehaviour and ScriptableObject references much more easily can, and with a greater degree of type safety than Unity's DI scheme allows.
+Unity Engine has a built-in dependency injection scheme in the form of **editor references**. Anyone who has worked on a large Unity project can tell you that editor references frequently break, and refactoring them is a pain point for many teams. While project asset references cannot be so easily eliminated, runtime assets such as MonoBehaviour and ScriptableObject references much more easily can, and with a greater degree of type safety than Unity's DI scheme allows.
 
 ## How to Use
 
